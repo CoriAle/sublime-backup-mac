@@ -1,0 +1,12 @@
+[
+    {
+        "class": "sidebar_label",
+        "font.bold": false,
+        "font.size": 15
+    },
+    {
+	    "class": "tab_label",
+	    "font.size": 16, 
+
+	},
+]

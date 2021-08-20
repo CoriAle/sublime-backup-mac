@@ -1,0 +1,49 @@
+// SublimeLinter Settings - User
+{
+  "debug": true,
+  "styles": [
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "icon": "dot",
+            "scope": "region.yellowish markup.changed.sublime_linter markup.warning.sublime_linter",
+            "types": ["warning"]
+        },
+        {
+            "mark_style": "outline",
+            "priority": 1,
+            "icon": "dot",
+            "scope": "region.redish markup.deleted.sublime_linter markup.error.sublime_linter",
+            "types": ["error"]
+        },
+        {
+            "priority": 1,
+            "icon": "dot",
+            "mark_style": "outline"
+        }
+    ],
+    // Provide extra paths to be searched when locating system executables.
+    "paths": {
+        "linux": [],
+        "osx": [
+            "/Users/corinanimatujhuitz/.nvm/versions/node/v8.7.0/bin",
+            "/Users/corinanimatujhuitz/.nvm/versions/node/v8.7.0/bin/node",
+            "/Users/corinanimatujhuitz/.nvm/versions/node/v8.7.0/bin/sass-lint",
+            "/Users/corinanimatujhuitz/.nvm/versions/node/v8.7.0/bin/eslint",
+            "/Users/corinanimatujhuitz/.nvm/versions/node/v8.7.0/bin/jshint",
+        ],
+        "windows": []
+    },
+     "linters": {
+        "eslint": {
+            "disable": false,
+            "args": [],
+            "executable": [
+                "/Users/corinanimatujhuitz/.nvm/versions/node/v8.7.0/bin/node",
+                 "/Users/corinanimatujhuitz/.nvm/versions/node/v8.7.0/bin/eslint"
+            ],
+            "excludes": [],
+            "lint_mode": "background"
+        }
+    },
+}

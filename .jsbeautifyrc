@@ -1,0 +1,33 @@
+{
+	"custom":
+    {
+        // Rules added here apply only to files matching specific glob strings,
+        // but respecting any whitelists or blacklists as determined by the
+        // rules specified for `global_file_rules` in the plugin settings. They
+        // take precedence over any of the settings in the categories above.
+
+        // For the following entries, keys are globs and values are objects which
+        // can contain any kind of .jsbeautifyrc setting.
+
+        "@(package?(-lock)|yarn-lock).json":
+        {
+            "indent_size": 2,
+            "brace_style": "collapse"
+        },
+
+        "*.sublime-@(settings|keymap|commands|menu)":
+        {
+            "indent_size": 4,
+            "brace_style": "expand"
+        },
+        ".jsx":
+        {
+        	"indent_size": 2,
+        }
+    },
+
+     ".jsx":
+        {
+            "indent_size": 2,
+     }
+}

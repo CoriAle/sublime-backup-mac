@@ -1,0 +1,52 @@
+{
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		".next"
+	],
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".build",
+		"build",
+		"node_modules"
+	],
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Adaptive.sublime-theme",
+	"highlight_line": true,
+	"spell_check": true,
+	"ignored_words":
+	[
+		"backcountry",
+		"i18next",
+	],
+	"added_words":
+	[
+		"utils",
+		"txt",
+		"bg",
+		"body2",
+		"lodash",
+		"Gearheads",
+	],
+}
